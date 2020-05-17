@@ -10,9 +10,7 @@
   "scripts": {
     "serve": "live-server public/",
     "build": "webpack",
-    "dev-server": "webpack-dev-server",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "dev-server": "webpack-dev-server"
   },
   "dependencies": {
     "babel-cli": "6.24.1",
@@ -22,7 +20,6 @@
     "babel-preset-env": "1.5.2",
     "babel-preset-react": "6.24.1",
     "css-loader": "0.28.4",
-    "gh-pages": "^2.2.0",
     "live-server": "^1.2.1",
     "node-sass": "^4.13.1",
     "normalize.css": "7.0.0",
