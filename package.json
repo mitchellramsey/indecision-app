@@ -2,6 +2,9 @@
   "name": "indecision-app",
   "version": "1.0.0",
   "description": "Beginner React Project",
+  "engines": {
+    "node": "12.5.0"
+  },
   "main": "index.js",
   "repository": "https://github.com/mramsey1992/indecision-app",
   "homepage": "https://mramsey1992.github.io/indecision-app/",
